@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 6125196980835186480}
   - component: {fileID: 6125196980835186487}
   - component: {fileID: 7571692739459585175}
+  - component: {fileID: 6118502159787199804}
+  - component: {fileID: 3139443078704976520}
   m_Layer: 6
   m_Name: Button
   m_TagString: Untagged
@@ -62,7 +64,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -147,7 +149,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90e774a6321c6c949bf0a2229c403b61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  sceneName: scene_one
+--- !u!95 &6118502159787199804
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6125196980835186485}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3c7715520d04f0a47822852412696d6b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3139443078704976520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6125196980835186485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7086c0b132c03c2409777847852cc167, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7420947559023979809
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -155,6 +189,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6125196980835186486}
     m_Modifications:
+    - target: {fileID: 3746311334463977056, guid: 57183fdfbc8b41a488f039b696c8a804, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 3289650
+      objectReference: {fileID: 0}
     - target: {fileID: 3746311334463977057, guid: 57183fdfbc8b41a488f039b696c8a804, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -241,7 +279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3746311334463977062, guid: 57183fdfbc8b41a488f039b696c8a804, type: 3}
       propertyPath: m_Name
-      value: Text (TMP)
+      value: button_text
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57183fdfbc8b41a488f039b696c8a804, type: 3}
