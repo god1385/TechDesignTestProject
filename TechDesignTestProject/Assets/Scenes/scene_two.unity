@@ -579,38 +579,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9213051876987611724, guid: 3a6da0ee3c1ef2f4184ba2049fe3bdb2, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9213051876987611724, guid: 3a6da0ee3c1ef2f4184ba2049fe3bdb2, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 9213051876987611724, guid: 3a6da0ee3c1ef2f4184ba2049fe3bdb2, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 122087105}
-    - target: {fileID: 9213051876987611724, guid: 3a6da0ee3c1ef2f4184ba2049fe3bdb2, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9213051876987611724, guid: 3a6da0ee3c1ef2f4184ba2049fe3bdb2, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlaySfx
-      objectReference: {fileID: 0}
-    - target: {fileID: 9213051876987611724, guid: 3a6da0ee3c1ef2f4184ba2049fe3bdb2, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: AudioManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 9213051876987611724, guid: 3a6da0ee3c1ef2f4184ba2049fe3bdb2, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: button_sound
-      objectReference: {fileID: 0}
-    - target: {fileID: 9213051876987611724, guid: 3a6da0ee3c1ef2f4184ba2049fe3bdb2, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a6da0ee3c1ef2f4184ba2049fe3bdb2, type: 3}
 --- !u!1001 &4055526758535043834

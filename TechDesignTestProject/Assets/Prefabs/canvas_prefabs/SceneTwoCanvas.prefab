@@ -209,11 +209,11 @@ PrefabInstance:
     - target: {fileID: 8281182652318493359, guid: e8f9f5a1681e8ab459629a050ed1b573, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: ae7fe60404ee4964c99467017ca3ec80, type: 2}
+      objectReference: {fileID: 11400000, guid: bdac492eaf07eec489ad489ed41494d0, type: 2}
     - target: {fileID: 8281182652318493359, guid: e8f9f5a1681e8ab459629a050ed1b573, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 5958193785595366010, guid: ae7fe60404ee4964c99467017ca3ec80, type: 2}
+      objectReference: {fileID: -9140263089998448587, guid: bdac492eaf07eec489ad489ed41494d0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8f9f5a1681e8ab459629a050ed1b573, type: 3}
 --- !u!224 &9201796245500911939 stripped
@@ -327,11 +327,11 @@ PrefabInstance:
     - target: {fileID: 6125196982292290369, guid: 21d18874334a20a4e983dabff8e2ae40, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: ae7fe60404ee4964c99467017ca3ec80, type: 2}
+      objectReference: {fileID: 11400000, guid: bdac492eaf07eec489ad489ed41494d0, type: 2}
     - target: {fileID: 6125196982292290369, guid: 21d18874334a20a4e983dabff8e2ae40, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 5958193785595366010, guid: ae7fe60404ee4964c99467017ca3ec80, type: 2}
+      objectReference: {fileID: -9140263089998448587, guid: bdac492eaf07eec489ad489ed41494d0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21d18874334a20a4e983dabff8e2ae40, type: 3}
 --- !u!224 &9213051876987611725 stripped
@@ -353,11 +353,11 @@ PrefabInstance:
     - target: {fileID: 5108169017456108307, guid: f01977c7bcd45034fb027f11a8796b21, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: ae7fe60404ee4964c99467017ca3ec80, type: 2}
+      objectReference: {fileID: 11400000, guid: bdac492eaf07eec489ad489ed41494d0, type: 2}
     - target: {fileID: 5108169017456108307, guid: f01977c7bcd45034fb027f11a8796b21, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 5958193785595366010, guid: ae7fe60404ee4964c99467017ca3ec80, type: 2}
+      objectReference: {fileID: -9140263089998448587, guid: bdac492eaf07eec489ad489ed41494d0, type: 2}
     - target: {fileID: 8472735121007939145, guid: f01977c7bcd45034fb027f11a8796b21, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
