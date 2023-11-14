@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 5330865866371907249}
   - component: {fileID: 5330865866371907248}
   - component: {fileID: 5330865866371907255}
-  - component: {fileID: 5168864493040145352}
   - component: {fileID: 1528642792}
   m_Layer: 7
   m_Name: ButtonTrigger
@@ -127,26 +126,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.17368314, y: 0.21723965}
   m_EdgeRadius: 0
---- !u!95 &5168864493040145352
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5330865866371907254}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0a138f56625530a4d984401f3b5c494c, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1528642792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,5 +165,17 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+          m_MethodName: PlaySfx
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: button_sound
             m_BoolArgument: 0
           m_CallState: 2
