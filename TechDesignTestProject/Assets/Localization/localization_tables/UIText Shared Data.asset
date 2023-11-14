@@ -27,6 +27,10 @@ MonoBehaviour:
     m_Key: Change Scene
     m_Metadata:
       m_Items: []
+  - m_Id: 56665872674816
+    m_Key: Exit
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

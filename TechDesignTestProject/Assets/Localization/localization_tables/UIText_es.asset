@@ -30,6 +30,10 @@ MonoBehaviour:
     m_Localized: Haga clic para cambiar de escena
     m_Metadata:
       m_Items: []
+  - m_Id: 56665872674816
+    m_Localized: Salida
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

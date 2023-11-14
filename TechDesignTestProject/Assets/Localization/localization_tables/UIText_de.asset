@@ -30,6 +30,10 @@ MonoBehaviour:
     m_Localized: Klicken Sie, um die Szene zu wechseln
     m_Metadata:
       m_Items: []
+  - m_Id: 56665872674816
+    m_Localized: Ausfahrt
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
